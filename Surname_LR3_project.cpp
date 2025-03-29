@@ -33,7 +33,7 @@ void printCharAndAscii(char ch) {
 
 // Функция для вывода суммы кодов ASCII
 void printAsciiSum(char ch1, char ch2) {
-
+    cout << "Сумма кодов ASCII: " << (int)ch1 + (int)ch2 << endl;
 }
 
 int main() {
@@ -62,6 +62,7 @@ int main() {
         printCharAndAscii(ch2);
             break;
         case 4:
+        printAsciiSum(ch1, ch2);
             break;
         case 0:
             cout << "Программа завершена." << endl;
