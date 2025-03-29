@@ -27,8 +27,8 @@ char inputSecondChar() {
 
 
 // Функция для вывода символа и его кода ASCII
-void printCharAndAscii() {
-
+void printCharAndAscii(char ch) {
+    cout << "Символ: " << ch << ", Код ASCII: " << (int)ch << endl;
 }
 
 // Функция для вывода суммы кодов ASCII
@@ -58,6 +58,8 @@ int main() {
             ch2 = inputSecondChar();
             break;
         case 3:
+        printCharAndAscii(ch1);
+        printCharAndAscii(ch2);
             break;
         case 4:
             break;
