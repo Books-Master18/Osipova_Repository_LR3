@@ -8,10 +8,13 @@
 #include <iostream>
 #include <string>
 
-
+using namespace std;
 
 char inputFirstChar() {
-    //branch_fun_1
+    char ch;
+    cout << "Введите первый символ: ";
+    cin >> ch;
+    return ch;//branch_fun_1
 }
 
 // Функция для ввода второго символа
